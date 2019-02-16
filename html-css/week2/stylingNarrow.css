@@ -1,4 +1,4 @@
-@media all and (max-width: 767px) {
+
 * {
  box-sizing: border-box;
  margin: 0;
@@ -87,5 +87,4 @@ iframe{
 	padding-top:10px;
 	padding-bottom:20px;
 	border-style:none;
-}
 }
