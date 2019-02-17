@@ -15,10 +15,26 @@ body{
 	font-family: calibri, sans-serif;
 }
 
+@media only screen and (max-width: 700px){
+	h1{
+	padding-top:2%;
+	padding-left:5%;
+	padding-bottom:2px;
+}
+}
+
 h1{
 	padding-top:3%;
 	padding-left:10%;
 	padding-bottom:5px;
+}
+
+@media only screen and (max-width: 700px){
+	#subHeader{
+	padding-left:5%;
+	padding-bottom:2%;
+	color: rgb(100,100,100);
+}
 }
 
 #subHeader{
@@ -31,6 +47,15 @@ header{
 	background-color:rgb(245,245,245);
 	border-bottom: inset 2px rgb(230,230,230);
 }
+
+@media only screen and (max-width: 700px){
+	nav{
+	margin:1%;
+	margin-left:5%;
+	font-weight:bold;
+}
+}
+
 nav{
 	margin:1%;
 	margin-left:10%;
@@ -46,6 +71,15 @@ nav ul li{
 	max-height:350px;
 	width:100%;
 	margin-bottom:3%;
+}
+
+
+@media only screen and (max-width: 700px){
+.firstColumn, .secondColumn {
+	margin-left:5%;
+	max-width:550px;
+	margin-bottom:2%;
+}
 }
 
 .firstColumn{
@@ -112,10 +146,35 @@ footer a:link{	color:white;}
 footer a:visited{ color:rgb(250,200,5)}
 footer a:hover{	color:black;}
 
+@media only screen and (max-width: 700px){
+	footer{
+	color:white;
+	margin-top:2%;
+	background-color:rgb(130,0,255);
+}
+}
+
 footer{
 	color:white;
 	margin-top:5%;
 	background-color:rgb(130,0,255);
+}
+
+@media only screen and (max-width: 700px){
+	.footerList{
+	font-size:20px;
+	padding-left:5%;
+	padding-right:10%;
+	padding-top:3%;
+	padding-bottom:5%;
+}
+
+.footerList li li{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:bold;
+	border-bottom: inset 1px grey;
+}
 }
 
 .footerList{
