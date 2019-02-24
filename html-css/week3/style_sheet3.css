@@ -1,0 +1,81 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url(/assets/IMG_2190.JPG);
+}
+
+a{
+    text-decoration: none;
+    color: lavender;
+}
+
+a:hover{
+    color: darkred;
+    cursor: pointer;
+}
+
+#page_logo{
+    height: 7cm;
+    width: 7cm;
+    margin-left: 1cm;
+}
+
+nav{
+    float: right;
+    margin: 1cm;
+    background-color: crimson;
+    padding: 1.5cm;
+    border-style: groove;
+}
+
+nav > a{
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.form_title{
+    font-size: 28px;
+}
+
+.signup_form, label{
+    font-weight: bold;
+}
+
+.signup_form, input{
+    margin: 14px;
+    font-size: 18px;
+}
+
+input{
+    border-radius: 15px;
+    background-color: rgb(198, 250, 232);
+}
+
+#progress{
+    width:90%;
+    height: 1cm;
+}
+
+.images_container input{
+    margin-right: 170px;
+}
+
+
+form img{
+    width: 230px;
+    height: 360px;
+    border: inset 6px;;
+    border-radius: 14px;
+    margin: 5px;
+}
+
+#next_button{
+    font-size: 30px;
+    float: right;
+    width: 7cm;
+    height: 4cm;
+}

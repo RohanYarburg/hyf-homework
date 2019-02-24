@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homework3 3rd step</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style_sheet3.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="page_header">
+        <img src="./assets/3e752ce1-59e5-416b-85d4-23c8feee8632.png" id="page_logo" alt="pink dress logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <!--logo top right and then navigation top left-->
+    </header>
+    <!--End page_header-->
+    <main class="page_main">
+    <h1 class="page_main_title">Sign up to yourcustomtailor.com</h1>
+    <h2 class="form_title">Step 3/4 - Time to learn about your preferences</h2>
+    <form action="/signup" method="POST" class="signup_form">
+        <label for="progress">Progress<br/></label>
+        <progress value="6" max="10" name="progress" id="progress"></progress>
+        <!--END progress-->
+        <p>What kind of items are you interested in offers on?</p>
+        <div class="checkbox_container">
+            <label for="apparal">Apparal</label>
+            <input type="checkbox" name="apparal" id="apparal">
+            <label for="jewelery">Jewelery</label>
+            <input type="checkbox" name="jewelery" id="jewelery">
+        </div>
+        <div class="checkbox_container2">
+            <label for="accessories">Accessories</label>
+            <input type="checkbox" name="accessories" id="accessories">
+            <label for="shoes">Shoes</label>
+            <input type="checkbox" name="shoes" id="shoes">
+        </div>
+        <div>
+            <label for="handbags">Handbags</label>
+            <input type="checkbox" name="handbags" id="handbags">
+        </div>
+        <div class="images_container"
+        <p>choose the images that best resemble your style</p>
+        <img src="https://i.pinimg.com/564x/84/51/39/84513904f719256d7d56b40ab011067f.jpg" alt="artsy fashtion style male">
+        <img src="https://i.pinimg.com/564x/dd/c8/4d/ddc84d5862e0f931ad6abcd8fed3cda3.jpg?b=t" alt="artsy fashion style male">
+        <img src="https://i.pinimg.com/564x/df/f0/e4/dff0e44e33d72293f41d2403e175e688.jpg?b=t" alt="rocker style male">
+        <img src="https://i.pinimg.com/564x/41/42/20/4142202b9f0f27f2e496c81fc9c99c2c.jpg?b=t" alt="sophisticated style male">
+        <img src="https://i.pinimg.com/564x/65/76/23/657623b4da3ca3a36009203900e6e266.jpg" alt="rocker style male">
+        <br/>
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select1" value="1">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select2" value="2">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select3" value="3">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select4" value="4">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select5" value="5">
+        <br/>
+        <img src="https://i.pinimg.com/564x/db/64/35/db64354953adf2fdb166bd89167b4903.jpg" alt="preppy style male">
+        <img src="https://i.pinimg.com/564x/2f/9e/9a/2f9e9a36be663db07c0f52ed070655b1.jpg?b=t" alt="chic style male">
+        <img src="https://i.pinimg.com/564x/35/6b/f4/356bf4111c71f5f038afa0c956703f78.jpg?b=t" alt="bohemian style male">
+        <img src="https://i.pinimg.com/564x/cd/c1/d0/cdc1d00ad89f8f789261503cec27cbdb.jpg?b=t" alt="casual style male">
+        <img src="https://i.pinimg.com/originals/ed/83/97/ed8397706f11aa868297450f2d6e7dad.png" alt="vintage style male">
+        <br/>
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select6" value="6">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select7" value="7">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select8" value="8">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select9" value="9">
+        <label for="select">Select</label>
+        <input type="checkbox" name="select" id="select10" value="10">
+        <input type="button" value="Next step" onclick="window.location.href='step4.html'" id="next_button">
+    </form>
+    </main>
+</body>
+</html>

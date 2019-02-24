@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homework3 2nd step</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/style_sheet2.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="page_header">
+        <img src="./assets/3e752ce1-59e5-416b-85d4-23c8feee8632.png" id="page_logo" alt="pink dress logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <!--logo top right and then navigation top left-->
+    </header>
+    <!--End page_header-->
+    <main class="page_main">
+    <h1 class="page_main_title">Sign up to yourcustomtailor.com</h1>
+    <h2 class="form_title">Step 2/4 - how can we reach you?</h2>
+    <form action="/signup" method="POST" class="signup_form">
+        <label for="progress">Progress<br/></label>
+        <progress value="4" max="10" name="progress" id="progress"></progress>
+        <p>We will probably stay in touch somehow. Let us know how we can reach you?</p>
+        <div class="mail_phone">
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" required="required">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div class="pass_container">
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" required="required">
+        </div>
+        <div class="confirm_container">
+            <label for="confirm">Re-enter Password*</label>
+            <input type="password" name="confirm" id="confirm" required="required">
+        </div>
+        <p>I want to sign up for the newsletter</p>
+        <div class="news_container">
+            <label for="weekly">Weekly news</label>
+            <input type="radio" name="newsletter" id="weekly" value="weekly">
+            <label for="monthly">Monthly news</label>
+            <input type="radio" name="newsletter" id="monthly" value="monthly">
+            <label for="no-news">I don't want newsletters</label>
+            <input type="radio" name="newsletter" id="no-news" value="no-news">
+            <input type="button" value="Next step" onclick="window.location.href='step3.html'" id="next_button">
+        </div>
+        </form>
+    </main>
+</body>
+</html>

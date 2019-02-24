@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homework3 4th step</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/style_sheet4.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="page_header">
+        <img src="./assets/3e752ce1-59e5-416b-85d4-23c8feee8632.png" id="page_logo" alt="pink dress logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <!--End page_header-->
+    <main class="page_main">
+    <h1 class="page_main_title">Sign up to yourcustomtailor.com</h1>
+    <h2 class="form_title">Step 4/4 - Payment</h2>
+    <form action="/signup" method="POST" class="signup_form">
+        <label for="progress">Progress<br/></label>
+        <progress value="9" max="10" name="progress" id="progress"></progress>
+        <p>Please fill in your payment data</p>
+        <label for="name_Card">Name on card</label>
+        <input type="text" name="name_Card" id="name_Card" required="required">
+        <label for="cardType">Card type</label>
+        <select name="cardType" id="cardType" required="required">
+            <option value="">Select your card type</option>
+            <option value="master">Master Card</option>
+            <option value="visa">Visa Card</option>
+            <option value="american">American Express</option>
+        </select>
+        <label for="cardnumber">Credit card number</label>
+        <input type="number" name="cardnumber" id="cardnumber" required="required">
+        <label for="expiryMonth">Expiry month</label>
+        <input type="month" name="expiryMonth" id="expiry_Month" required="required">
+        <label for="ccv">CCV</label>
+        <input type="number" name="ccv" id="ccv" max="9999">
+        <input type="button" value="Next step" id="next_button">
+    </form>
+    </main>
+</body>
+</html>
