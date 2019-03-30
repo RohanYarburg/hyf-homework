@@ -3,7 +3,7 @@ let spritiAnimalArray = [
     "Cat",
     "Humming bird",
     "Lizard",
-    "Marble swan of Ninani",
+    "octopus",
     "lion",
     "Snow leopard",
     "pig",
@@ -11,15 +11,12 @@ let spritiAnimalArray = [
     "dragonfly"]
 
     let randomNumber = Math.floor(Math.random() * 10);
-
-    function test()
-    {
+    let button = document.getElementById("onclick");
+    button.addEventListener(click, function(){
         let userInput = document.getElementById("userInput").value;
         if (userInput.value=="") {
             document.write("invalid input");
         }else{
         document.write(userInput+" - "+spritiAnimalArray[randomNumber]);
         }
-    }
-
-    test();
+    })
