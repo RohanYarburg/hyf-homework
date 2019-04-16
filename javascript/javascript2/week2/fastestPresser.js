@@ -19,7 +19,7 @@ startBtn.addEventListener('click', function start(){
         }else if(event.code==='KeyS'){
             counterS+=1;
             let counterSdisplay=document.getElementById ('sCount');
-            counterSdisplay.innerHTML=('S= '+counterL);
+            counterSdisplay.innerHTML=('S= '+counterS);
         }
         }
         setTimeout(function counter(){
