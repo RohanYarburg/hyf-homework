@@ -1,0 +1,14 @@
+body{
+    background-color: tomato;
+}
+
+#btn, #location{
+    height: 70px;
+    width: 300px;
+    font-size: 40px;
+}
+
+#planet{
+    text-align: center;
+    font-size: 50px;
+}

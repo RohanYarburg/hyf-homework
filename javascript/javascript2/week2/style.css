@@ -1,0 +1,74 @@
+body{
+    background-color: steelblue;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+#secs{
+    height: 50px;
+    width: 300px; 
+    font-size: 30px;
+    text-align: center;
+}
+#start{
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+}
+
+.secPress{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+#S_press{
+    font-size: 40px;
+    margin-left: 210px;
+    margin-top: 120px;
+    background-color: coral;
+    width: 400px;
+    text-align: center;
+    height: 10cm;
+    position: absolute;
+}
+
+#L_press{
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: -87px; 
+    background-color: darkgreen;
+    color: white;
+    width: 400px;
+    text-align: center;
+    height: 10cm;
+    position: absolute;
+    margin-top: 120px;
+}
+
+#sCount{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 190px;
+    font-size: 80px;
+    font-family: monospace;
+}
+
+#lCount{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 190px;
+    font-size: 80px;
+    font-family: monospace;  
+}
+
+#finishResults{
+    margin-left: 480px;
+    font-size: 110px;
+    position: absolute;
+    font-family: fantasy;
+    color: gold;
+}
